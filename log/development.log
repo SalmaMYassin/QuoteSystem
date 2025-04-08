@@ -1,0 +1,4 @@
+  [1m[35mSQL (0.0ms)[0m  [1m[35mSET search_path TO public /*application='QuoteSystem'*/[0m
+  [1m[35m (17.6ms)[0m  [1m[35mCREATE DATABASE "quote_system_development" ENCODING = 'unicode' /*application='QuoteSystem'*/[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[35mSET search_path TO public /*application='QuoteSystem'*/[0m
+  [1m[35m (10.3ms)[0m  [1m[35mCREATE DATABASE "quote_system_test" ENCODING = 'unicode' /*application='QuoteSystem'*/[0m
