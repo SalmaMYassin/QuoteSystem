@@ -3,9 +3,9 @@ class Quote < ApplicationRecord
   validates :property_type, :location, :estimated_value, presence: true
 
   enum status: {
-    pending: 'pending',
-    approved: 'approved',
-    rejected: 'rejected',
-    expired: 'expired'
+    pending: "pending",
+    approved: "approved",
+    rejected: "rejected",
+    expired: "expired"
   }
 end
